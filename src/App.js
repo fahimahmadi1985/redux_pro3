@@ -10,7 +10,7 @@ export class App extends Component {
   };
   render() {
     return (
-      <div className="container m-5 p-5 border border-1 border-info bg-dark text-white">
+      <div className="container col-6 p-5 border border-1 border-info bg-dark text-white">
         <form
           className="form-group"
           onSubmit={e => {
@@ -29,27 +29,31 @@ export class App extends Component {
           <input
             type="text"
             onChange={this.changeHandler}
-            className="form-control"
+            className="form-control mt-3"
             name="des"
           />
           Departure:{" "}
           <input
             type="text"
             onChange={this.changeHandler}
-            className="form-control"
+            className="form-control mt-3"
             name="dep"
           />
           Date:{" "}
           <input
             type="text"
             onChange={this.changeHandler}
-            className="form-control"
+            className="form-control mt-3"
             name="date"
           />
-          <input type="submit" value="Register" className="btn btn-primary" />
+          <input
+            type="submit"
+            value="Register"
+            className="btn btn-primary col-4 float-right p-3 mt-4 mb-5"
+          />
         </form>
 
-        <table className="table text-white">
+        <table className="table text-white mt-5">
           <thead>
             <tr>
               <th>#</th>
@@ -69,15 +73,15 @@ export class App extends Component {
                     <td>{f.dep}</td>
                     <td>{f.date}</td>
                     <td>
-                      <button
+                      <input
+                        type="button"
                         className="btn btn-danger pr-3 pl-3"
                         id={f.fn}
                         onClick={e => {
                           this.props.dflight(e.target.id);
                         }}
-                      >
-                        X
-                      </button>
+                        value="X"
+                      />
                     </td>
                   </tr>
                 ))
