@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/redux_pro3/static/js/main.3f79a44a.chunk.js",
-    "main.js.map": "/redux_pro3/static/js/main.3f79a44a.chunk.js.map",
+    "main.js": "/redux_pro3/static/js/main.e2d5c78e.chunk.js",
+    "main.js.map": "/redux_pro3/static/js/main.e2d5c78e.chunk.js.map",
     "runtime-main.js": "/redux_pro3/static/js/runtime-main.cada7f8f.js",
     "runtime-main.js.map": "/redux_pro3/static/js/runtime-main.cada7f8f.js.map",
     "static/js/2.649dd5a7.chunk.js": "/redux_pro3/static/js/2.649dd5a7.chunk.js",
     "static/js/2.649dd5a7.chunk.js.map": "/redux_pro3/static/js/2.649dd5a7.chunk.js.map",
     "index.html": "/redux_pro3/index.html",
-    "precache-manifest.08fe81f2575f47968ebbf5f2bcf50092.js": "/redux_pro3/precache-manifest.08fe81f2575f47968ebbf5f2bcf50092.js",
+    "precache-manifest.8a5c5369e290ed15097e5552248384a7.js": "/redux_pro3/precache-manifest.8a5c5369e290ed15097e5552248384a7.js",
     "service-worker.js": "/redux_pro3/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.cada7f8f.js",
     "static/js/2.649dd5a7.chunk.js",
-    "static/js/main.3f79a44a.chunk.js"
+    "static/js/main.e2d5c78e.chunk.js"
   ]
 }
